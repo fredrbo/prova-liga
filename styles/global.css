@@ -24,6 +24,7 @@
 .grayscale  {
     filter: grayscale(1);
 }
+
 .mirrored-image {
     transform: scaleX(-1);
 }

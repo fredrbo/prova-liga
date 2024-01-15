@@ -2,24 +2,25 @@
 
     display: flex;
     flex-direction: column;
-
     .card-selected {
 
         img {
             max-height: 20rem;
-            /* padding-bottom: 30px;
-            border-bottom: 2px solid #CECECE; */
         }
     }
 
 
-    .carrousel {
+    .carousel {
+        /* width: 20rem;
+        border: 1px solid blue; */
         display: flex;
         justify-content: space-between;
-
+        overflow-x: auto;
         img {
             margin: 10px 5px;
             max-height: 7rem;
+            cursor: pointer;
+
         }
     }
 }
