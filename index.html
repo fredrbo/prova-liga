@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/global.css">
-    
+
     <title>Prova Dev - LigaMagic</title>
 </head>
 
@@ -14,11 +14,13 @@
     <main>
         <div class="main-container">
             <section>
-                <div class="viewer-card-container"></div>
+                <div class="viewer-card-component"></div>
             </section>
 
             <section>
-                <div class="info-card-container"></div>
+                <!-- <div class="info-card-component"></div> -->
+                <div class="breadcrumb-component"></div>
+
             </section>
 
         </div>
@@ -29,9 +31,11 @@
 <script src="script.js"></script>
 
 <script>
-    loadContent('./components/viewer-card/viewer-card.html', '.viewer-card-container');
-    loadContent('./components/info-card/info-card.html', '.info-card-container');
+    loadContent('./components/viewer-card/viewer-card.html', '.viewer-card-component');
+    // loadContent('./components/info-card/info-card.html', '.info-card-component');
+    loadContent('./components/shared/breadcrumb/breadcrumb.html', '.breadcrumb-component');
 </script>
+
 <script src="./components/viewer-card/viewer-card.js"></script>
 
 </html>

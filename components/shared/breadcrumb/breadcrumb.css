@@ -1,0 +1,13 @@
+.breadcrumb{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-weight: 500;
+    cursor: default;
+    font-size: 14px;
+
+    li{
+        color: #9B9B98;
+
+    }
+}

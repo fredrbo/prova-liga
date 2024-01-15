@@ -1,6 +1,7 @@
 @import url("./components.css");
 @import url("./../components/info-card/info-card.css");
 @import url("./../components/viewer-card/viewer-card.css");
+@import url("./../components/shared/breadcrumb/breadcrumb.css");
 
 * {
     /* font-family: 'Arial', sans-serif; */
@@ -21,10 +22,15 @@
 }
 
 
-.grayscale  {
+.grayscale {
     filter: grayscale(1);
 }
 
 .mirrored-image {
     transform: scaleX(-1);
+}
+
+ul,
+ol {
+    list-style: none;
 }
