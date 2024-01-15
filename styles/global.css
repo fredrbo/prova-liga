@@ -1,0 +1,29 @@
+@import url("./components.css");
+@import url("./../components/info-card/info-card.css");
+@import url("./../components/viewer-card/viewer-card.css");
+
+* {
+    /* font-family: 'Arial', sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+
+.main-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+.grayscale  {
+    filter: grayscale(1);
+}
+.mirrored-image {
+    transform: scaleX(-1);
+}
