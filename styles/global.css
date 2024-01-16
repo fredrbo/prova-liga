@@ -1,8 +1,10 @@
-@import url("./components.css");
+@import url("./components/button.css");
+
+@import url("./../components/shared/breadcrumb/breadcrumb.css");
 @import url("./../components/info-card/info-card.css");
 @import url("./../components/viewer-card/viewer-card.css");
 @import url("./../components/select/select.css");
-@import url("./../components/shared/breadcrumb/breadcrumb.css");
+@import url("./../components/card-name/card-name.css");
 
 * {
     /* font-family: 'Arial', sans-serif; */
@@ -34,4 +36,36 @@
 ul,
 ol {
     list-style: none;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #727270;
+}
+
+.italic {
+    font-style: italic;
 }
