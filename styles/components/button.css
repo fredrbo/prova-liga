@@ -10,7 +10,14 @@ button {
 
 .button-bg-white{
     background-color: #F4F4F2;
-    border: 1px solid var(--border-color-lighter);
+    border: 1px solid var(--neutral-80-lighter);
+}
+
+.button-primary-bgless{
+    color: var(--primary-color);
+    font-weight: bold;
+    border: none;
+    background-color: none;
 }
 
 .button-hint{
@@ -28,7 +35,7 @@ button {
 
 .button-favorite {
     color: white;
-    -webkit-text-stroke: 1px var(--border-color);
+    -webkit-text-stroke: 1px var(--neutral-80);
     font-size: 20px;
 }
 

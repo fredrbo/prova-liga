@@ -7,7 +7,7 @@
     font-size: 14px;
 
     li{
-        color: var(--border-color-light);
+        color: var(--neutral-80-light);
 
     }
 }

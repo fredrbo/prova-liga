@@ -28,6 +28,6 @@
 }
 
 .card .select {
-    border-left: 1px solid var(--border-color);
+    border-left: 1px solid var(--neutral-80);
     padding-left: 4px;
 }

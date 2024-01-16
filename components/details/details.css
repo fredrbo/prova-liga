@@ -1,0 +1,33 @@
+.detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    margin: 8px;
+    padding: 0px 12px;
+    height: 36px;
+}
+
+.detail-name {
+    font-size: 16px;
+    color: #727270;
+}
+
+.price-low,
+.price-medium,
+.price-high{
+    color: var(--neutral-80);
+    padding: 0px 10px 0px 10px;
+}
+
+.price-low {
+    border-left: 4px solid var(--confirm-color-light);
+}
+
+.price-medium {
+    border-left: 4px solid var(--warning-color);
+}
+
+.price-high {
+    border-left: 4px solid var(--high-price-color);
+}

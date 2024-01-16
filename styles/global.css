@@ -6,6 +6,7 @@
 @import url("./../components/select/select.css");
 @import url("./../components/card-name/card-name.css");
 @import url("./../components/add-wishlist/add-wishlist.css");
+@import url("./../components/details/details.css");
 
 * {
     /* font-family: 'Arial', sans-serif; */
@@ -64,7 +65,7 @@ ol {
 
 .subtitle {
     font-size: 16px;
-    color: var(--border-color);
+    color: var(--neutral-80);
 }
 
 .italic {
