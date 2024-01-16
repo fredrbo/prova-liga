@@ -1,6 +1,7 @@
 @import url("./components.css");
 @import url("./../components/info-card/info-card.css");
 @import url("./../components/viewer-card/viewer-card.css");
+@import url("./../components/select/select.css");
 @import url("./../components/shared/breadcrumb/breadcrumb.css");
 
 * {
