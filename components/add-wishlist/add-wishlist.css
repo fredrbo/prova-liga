@@ -1,0 +1,15 @@
+.add-wishlist{
+    background-color: var(--main-bg-color);
+    box-shadow: 0px 4px 8px 0px var(--box-shadow-btn);
+    padding: 6px 20px;
+}
+
+.footer-wishlist{
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.counter{
+    padding: 12px 6px;
+    width: 72px;
+}

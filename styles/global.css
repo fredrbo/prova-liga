@@ -5,6 +5,7 @@
 @import url("./../components/viewer-card/viewer-card.css");
 @import url("./../components/select/select.css");
 @import url("./../components/card-name/card-name.css");
+@import url("./../components/add-wishlist/add-wishlist.css");
 
 * {
     /* font-family: 'Arial', sans-serif; */

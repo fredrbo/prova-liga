@@ -5,6 +5,25 @@ button {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    padding: 8px;
+}
+
+.button-bg-white{
+    background-color: #F4F4F2;
+    border: 1px solid var(--border-color-lighter);
+}
+
+.button-hint{
+    color: #BABAB8;
+    border: 2px solid #BABAB8;
+    font-weight: bolder;
+    padding: 0px 3px;
+}
+
+.button-confirm {
+    background-color: var(--confirm-color);
+    color: white;
+    box-shadow: 0px 4px 8px 0px #04050C1A;
 }
 
 .button-favorite {
@@ -20,9 +39,14 @@ button {
 
 .button-menu {
     background: linear-gradient(0deg, var(--main-bg-color), var(--main-bg-color)),
-                linear-gradient(0deg, var(--main-bg-color), var(--main-bg-color));
+        linear-gradient(0deg, var(--main-bg-color), var(--main-bg-color));
     border: 0.8px solid var(--main-bg-color);
     color: var(--primary-color);
     font-weight: bold;
     padding: 0px 5px 5px 5px;
+}
+
+
+.icon-img {
+    margin-right: 6px;
 }

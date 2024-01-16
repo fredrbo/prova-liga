@@ -5,6 +5,7 @@
     --primary-color-dark: #D63D00;
     --border-color: #727270;
     --border-color-light: #9B9B98;
+    --border-color-lighter: #CECECE;
     --active-color: #FF0000;
     --active-color-light: #FF6666;
     --active-color-dark: #CC0000;
@@ -13,4 +14,5 @@
     --confirm-color-dark: #087D2B;
  
     --black: #04050C;
+    --box-shadow-btn: #04050C1A;
 }
