@@ -1,5 +1,6 @@
+
 .card {
-    border: 1px solid #ECECEA;
+    border: 1px solid var(--main-bg-color);
     width: 100%;
     cursor: pointer;
     display: flex;
@@ -7,26 +8,26 @@
     padding: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
     border-radius: 3px;
+}
 
-    .rarity {
-        margin-right: 8px;
-        font-size: 12px;
-        padding: 2px;
-        color: white;
-        background-color: #04050C;
-    }
+.card .rarity {
+    margin-right: 8px;
+    font-size: 12px;
+    padding: 2px;
+    color: white;
+    background-color: black;
+}
 
-    .indexCollection {
-        margin-right: 5px;
-        font-weight: 600;
-    }
+.card .indexCollection {
+    margin-right: 5px;
+    font-weight: 600;
+}
 
-    .cardName {
-        font-size: 14px;
-    }
+.card .cardName {
+    font-size: 14px;
+}
 
-    .select{
-        border-left: 1px solid #CECECE;
-        padding-left: 4px;
-    }
+.card .select {
+    border-left: 1px solid var(--border-color);
+    padding-left: 4px;
 }

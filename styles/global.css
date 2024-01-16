@@ -1,5 +1,5 @@
+@import url("./colors.css");
 @import url("./components/button.css");
-
 @import url("./../components/shared/breadcrumb/breadcrumb.css");
 @import url("./../components/info-card/info-card.css");
 @import url("./../components/viewer-card/viewer-card.css");
@@ -14,7 +14,7 @@
 }
 
 .border {
-    border: 1px solid red;
+    border: 1px solid  red;
 }
 
 
@@ -63,7 +63,7 @@ ol {
 
 .subtitle {
     font-size: 16px;
-    color: #727270;
+    color: var(--border-color);
 }
 
 .italic {
