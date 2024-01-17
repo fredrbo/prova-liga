@@ -1,26 +1,29 @@
 .view-container {
-
     display: flex;
     flex-direction: column;
-    .card-selected {
+    align-items: center;
+}
 
-        img {
-            max-height: 20rem;
-        }
-    }
+.card-selected img {
+    max-height: 20rem;
+    border-bottom: 1.9px solid var(--neutral-80-lighter);
+    padding-bottom: 1.2rem;
+}
 
+.carousel {
+    display: flex;
+    overflow-x: hidden;
+}
 
-    .carousel {
-        /* width: 20rem;
-        border: 1px solid blue; */
-        display: flex;
-        justify-content: space-between;
-        overflow-x: auto;
-        img {
-            margin: 10px 5px;
-            max-height: 7rem;
-            cursor: pointer;
+.carousel img {
+    margin: 10px 5px;
+    max-height: 6rem;
+    cursor: pointer;
+}
 
-        }
-    }
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 236px;
 }

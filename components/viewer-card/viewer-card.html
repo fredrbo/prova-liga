@@ -1,5 +1,6 @@
 <body>
     <script src="viewer-card.js"></script>
+    
     <div class="view-container">
         <section class="card-selected">
             <img src="../../assets/img/counterspell-dmr.png" alt="card mtg">
@@ -7,20 +8,20 @@
         
         <section>
             <div class="carousel">
-                <button>
+                <button onclick="moveImages('left')">
                     <img src="../../assets/icon/arrow-left.svg" alt="back" class="svg-icon">
                 </button>
-                <img src="../../assets/img/counterspell-dmr.png" onclick="selectImage(this)" class="grayscale">
-                <img src="../../assets/img/counterspell-gmp.jpg" onclick="selectImage(this)" class="grayscale">
-                <img src="../../assets/img/counterspell-mfpf24.jpg" onclick="selectImage(this)" class="grayscale">
-                <img src="../../assets/img/counterspell-pdmr.jpg" onclick="selectImage(this)" class="grayscale">
-                <button>
+                <div class="images" id="imageContainer">
+                    <img src="../../assets/img/counterspell-dmr.png" onclick="selectImage(this)" >
+                    <img src="../../assets/img/counterspell-gmp.jpg" onclick="selectImage(this)" class="grayscale">
+                    <img src="../../assets/img/counterspell-mfpf24.jpg" onclick="selectImage(this)" class="grayscale">
+                    <img src="../../assets/img/counterspell-pdmr.jpg" onclick="selectImage(this)" class="grayscale">
+                </div>
+                <button onclick="moveImages('right')">
                     <img src="../../assets/icon/arrow-right.svg" alt="back" class="svg-icon">
                 </button>
             </div>
-
+            
         </section>
-
     </div>
-
 </body>
