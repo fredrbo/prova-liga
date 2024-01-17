@@ -8,8 +8,13 @@
 @import url("./../components/add-wishlist/add-wishlist.css");
 @import url("./../components/details/details.css");
 
+@font-face {
+    font-family: 'JostMedium';
+    src: url('../assets/font/jost-medi.ttf') format('truetype');
+}
+
 * {
-    /* font-family: 'Arial', sans-serif; */
+    font-family: 'JostMedium', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: none;
