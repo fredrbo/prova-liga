@@ -1,13 +1,19 @@
-.breadcrumb{
+.breadcrumb {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    align-items: center;
     font-weight: 500;
     cursor: default;
     font-size: 14px;
+    margin: 16px 0;
+}
 
-    li{
-        color: var(--neutral-80-light);
+.breadcrumb li,
+.breadcrumb hr {
+    margin-right: 8px;
+    color: var(--neutral-80-light);
+}
 
-    }
+.breadcrumb hr {
+    height: 12px;
 }
