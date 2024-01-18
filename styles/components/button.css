@@ -49,11 +49,10 @@ button {
     font-size: 20px;
 }
 
-.button-favorite:active {
-    -webkit-text-stroke: 1px var(--active-color);
-    color: var(--active-color);
+.button-favorite.favorite {
+    color: red;
+    -webkit-text-stroke: 1px red;
 }
-
 .button-menu {
     background: linear-gradient(0deg, var(--main-bg-color), var(--main-bg-color)),
         linear-gradient(0deg, var(--main-bg-color), var(--main-bg-color));
