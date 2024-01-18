@@ -1,5 +1,6 @@
 @import url("./colors.css");
 @import url("./margin.css");
+@import url("./toast.css");
 @import url("./components/button.css");
 @import url("./../components/shared/breadcrumb/breadcrumb.css");
 @import url("./../components/info-card/info-card.css");
@@ -81,4 +82,8 @@ ol {
 
 .italic {
     font-style: italic;
+}
+
+.pointer {
+    cursor: pointer;
 }

@@ -38,3 +38,10 @@
 .price-high {
     border-left: 4px solid var(--high-price-color);
 }
+
+
+.type-card{
+    font-size: 14px;
+    color: var(--neutral-80-dark);
+    font-weight: bold;
+}

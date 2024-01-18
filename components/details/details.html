@@ -6,7 +6,7 @@
     <section>
         <div class="detail">
             <span class="detail-name">Cor</span>
-            <span>Azul</span>
+            <span class="blue-mana">Azul</span>
         </div>
         <div class="detail">
             <span class="detail-name">Custo de Mana</span>
@@ -17,16 +17,18 @@
         </div>
         <div class="detail">
             <span class="detail-name">Tipo</span>
-            <span>Instant</span>
+            <span class="type-card">Mágica Instantânea</span>
         </div>
     </section>
 
     <div class="row between">
         <span class="details-title">Preço Médio no Marketplace
-            <hint class="button-hint">?</hint>
+            <hint class="button-hint" onmouseover="showHint('hintPrice')" onmouseout="hideHint('hintPrice')">?</hint>
+
         </span>
         <button class="button-primary-bgless">Ver tudo</button>
     </div>
+    <div id="hintPrice" class="hint-message">Preço baseado em todas lojas da Liga.</div>
 
     <section>
         <div class="detail">

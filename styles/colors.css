@@ -17,4 +17,10 @@
     --high-price-color: #FF8B64;
     --black: #04050C;
     --box-shadow-btn: #04050C1A;
+    --blue-mana: #0085FF;
+
+}
+
+.blue-mana{
+    color: var(--blue-mana);
 }

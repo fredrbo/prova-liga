@@ -1,21 +1,23 @@
 <section class="add-wishlist">
     <div>
         <span class="title">Lista de Compras</span>
-        <hint class="button-hint">?</hint>
+        <hint class="button-hint" onmouseover="showHint(hintWishlist)" onmouseout="hideHint(hintWishlist)">?</hint>
+        <div id="hintWishlist" class="hint-message">Ao adicionar na lista, o item vai para o carrinho.</div>
+
     </div>
     <div>
         <span class="subtitle">Adicione a carta aqui e deixe que a Liga calcule o melhor preço para você!</span>
     </div>
     <div class="footer-wishlist row">
         <div class="counter row content-center between button-bg-white">
-            <img src="../../assets/icon/plus-counter.svg" alt="">
-            1
-            <img src="../../assets/icon/minus-counter.svg" alt="">
+            <img class="pointer" src="../../assets/icon/plus-counter.svg" alt="" onclick="increaseCounter()">
+            <span id="counterValue">1</span>
+            <img class="pointer" src="../../assets/icon/minus-counter.svg" alt="" onclick="decreaseCounter()">
         </div>
         <div class="button-bg-white row">
             <img src="../../assets/icon/filter.svg" alt="">
         </div>
-        <button class="button-confirm">
+        <button class="button-confirm" onclick="showToast()">
             <div class="row align-center">
                 <img src="../../assets/icon/plus.svg" alt="" class="icon-img">
                 Adicionar na lista
@@ -23,6 +25,6 @@
         </button>
     </div>
     <div>
-
+        <div id="toast" class="toast">Cartas adicionadas com sucesso</div>
     </div>
 </section>
