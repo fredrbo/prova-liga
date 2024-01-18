@@ -4,8 +4,9 @@
     width: 100%;
     cursor: pointer;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
     border-radius: 3px;
 }
@@ -13,7 +14,8 @@
 .card .rarity {
     margin-right: 8px;
     font-size: 12px;
-    padding: 2px;
+    padding: 5px 0px 4px 5px;
+    font-weight: bold;
     color: white;
     background-color: black;
 }
@@ -24,10 +26,10 @@
 }
 
 .card .cardName {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .card .select {
-    border-left: 1px solid var(--neutral-80);
-    padding-left: 4px;
+    border-left: 2px solid var(--neutral-80);
+    padding-left: 8px;
 }
