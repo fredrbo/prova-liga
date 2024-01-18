@@ -22,6 +22,10 @@ button {
     background-color: none;
 }
 
+.button-primary-bgless:hover{
+    background-color: var(--main-bg-color);
+}
+
 .button-hint{
     color: #BABAB8;
     border: 2px solid #BABAB8;
@@ -33,6 +37,10 @@ button {
     background-color: var(--confirm-color);
     color: white;
     box-shadow: 0px 4px 8px 0px #04050C1A;
+}
+
+.button-confirm:hover {
+    background-color: var(--confirm-color-dark);
 }
 
 .button-favorite {

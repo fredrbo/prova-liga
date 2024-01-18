@@ -8,6 +8,13 @@
     height: 36px;
 }
 
+.details-title{
+    font-size: 16px;
+    margin-left: 22px;
+    font-weight: bold;
+    margin-top: 0.5rem ;
+}
+
 .detail-name {
     font-size: 16px;
     color: #727270;
